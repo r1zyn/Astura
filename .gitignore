@@ -1,0 +1,6 @@
+# node_modules instances
+node_modules
+packages/astura/node_modules
+
+# src directories
+packages/astura/src

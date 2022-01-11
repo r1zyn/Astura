@@ -1,0 +1,48 @@
+{
+    "name": "astura",
+    "version": "1.0.0",
+    "description": "A CLI for generating Discord bot templates in JavaScript/TypeScript.",
+    "scripts": {
+        "compile": "tsc",
+        "test": "echo Error: no test specified && exit 1"
+    },
+    "author": {
+        "name": "Ascendus",
+        "email": "ascendus.dev@gmail.com",
+        "url": "https://github.com/Acendus"
+    },
+    "main": "./build/cli.js",
+    "bin": {
+        "astura": "./build/cli.js"
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+        "CLI",
+        "Discord Bot Template",
+        "discord.js",
+        "JavaScript",
+        "TypeScript",
+        "Template",
+        "Discord API"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ascendus/Astura"
+    },
+    "bugs": {
+        "email": "ascendus.dev@gmail.com",
+        "url": "https://github.com/Ascendus/Astura/issues"
+    },
+    "homepage": "",
+    "dependencies": {
+        "yargs": "^17.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.8",
+        "@types/yargs": "^17.0.8"
+    },
+    "engines": {
+        "node": ">=16.5.0",
+        "npm": ">=7.19.1"
+    }
+}
